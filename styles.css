@@ -30,6 +30,7 @@ th {
 th {
   background-color: #888888;
   color: white;
+  border-width: 1px 1px 0px 0px;
 }
 
 .sub-total-text {
