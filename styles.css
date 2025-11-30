@@ -17,6 +17,7 @@ table {
   border: 1px solid orange;
   width: 90vw;
   border-collapse: collapse;
+  border-width: 0px 0px 1px 1px;
 }
 
 td,
