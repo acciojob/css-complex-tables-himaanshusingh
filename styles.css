@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+table {
+  width: 90vw;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid #ffb122;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #888888;
+  color: white;
+}
