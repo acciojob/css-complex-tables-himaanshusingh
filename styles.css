@@ -33,7 +33,8 @@ th {
   border-width: 1px 1px 0px 0px;
 }
 
-.sub-total-text {
+.sub-total-text, 
+.sub-total-row {
   text-align: right;
   text-align: center;
 }
