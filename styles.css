@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 * {
   margin: 0;
   padding: 0;
@@ -6,24 +5,33 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+
 body {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
   place-content: center;
 }
+
 table {
+  border: 1px solid orange;
   width: 90vw;
   border-collapse: collapse;
 }
+
 td,
 th {
-  border: 2px solid #ffb122;
-  padding: 5px;
+  border: 1px solid orange;
+  padding: 3px 5px;
   text-align: center;
 }
 
 th {
   background-color: #888888;
   color: white;
+}
+
+.sub-total-text {
+  text-align: right;
+  text-align: center;
 }
